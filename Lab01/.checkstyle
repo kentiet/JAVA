@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="true" sync-formatter="false">
+  <local-check-config name="COMP 1510 Checkstyle" location="/Users/KenTiet/Documents/COMP 1510 - CST Programming Java/Comp1510CheckstyleV6.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <fileset name="all" enabled="true" check-config-name="COMP1510 Check Style" local="false">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+  </fileset>
+</fileset-config>
